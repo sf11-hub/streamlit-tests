@@ -1,4 +1,6 @@
 import streamlit as st
 st.header('Hello! ')
-st.button('Balloons?')
-st.balloons()
+if st.button('Balloons?'):
+  st.balloons()
+  st.image('images/serce.png')
+  st.markdown("**LOVE SYLWIA**")
